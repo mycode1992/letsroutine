@@ -1,0 +1,52 @@
+<?php
+
+Route::group(['module' => 'Websrvc', 'middleware' => ['api'], 'namespace' => 'App\Modules\Websrvc\Controllers'], function() {
+
+    // Route::resource('websrvc', 'WebsrvcController');
+	Route::any('/websrvc/AreaList', 'WebsrvcController@AreaList');
+	Route::any('/websrvc/UserLogin', 'WebsrvcController@UserLogin');
+	Route::any('/websrvc/RegisterUser', 'WebsrvcController@RegisterUser');  
+	Route::any('/websrvc/LoginUser', 'WebsrvcController@LoginUser'); 
+	Route::any('/websrvc/ForgotPassword', 'WebsrvcController@ForgotPassword'); 
+	Route::any('/websrvc/GetPageLinks', 'WebsrvcController@GetPageLinks'); 
+	Route::any('/websrvc/GetSupport', 'WebsrvcController@GetSupport'); 
+	Route::any('/websrvc/GetUserInfo', 'WebsrvcController@GetUserInfo'); 
+	Route::any('/websrvc/EditUserInfo', 'WebsrvcController@EditUserInfo'); 
+	Route::any('/websrvc/UpdatePassword', 'WebsrvcController@UpdatePassword'); 
+	Route::any('/websrvc/GetUserWallet', 'WebsrvcController@GetUserWallet'); 
+	Route::any('/websrvc/OrderReportProblem', 'WebsrvcController@OrderReportProblem'); 
+	Route::any('/websrvc/AddAddress', 'WebsrvcController@AddAddress'); 
+	Route::any('/websrvc/GetAddressList', 'WebsrvcController@GetAddressList'); 
+	Route::any('/websrvc/MarkAsDefaultAdd', 'WebsrvcController@MarkAsDefaultAdd'); 
+	Route::any('/websrvc/GetPlanDietList', 'WebsrvcController@GetPlanDietList');
+	Route::any('/websrvc/GetPlanDietDetails', 'WebsrvcController@GetPlanDietDetails');
+	Route::any('/websrvc/PlaceYourOrder', 'WebsrvcController@checkout');
+	Route::any('/websrvc/GetServiceFee', 'WebsrvcController@GetServiceFee');
+	Route::any('/websrvc/GetfilterDietCenterList', 'WebsrvcController@GetfilterDietCenterList');
+	Route::any('/websrvc/DeleteAddress', 'WebsrvcController@DeleteAddress');
+	Route::any('/websrvc/GetFilterPlanList', 'WebsrvcController@GetFilterPlanList');
+	Route::any('/websrvc/CurrentOrder', 'WebsrvcController@CurrentOrder');
+	Route::any('/websrvc/GetPlanCalenderDetails', 'WebsrvcController@GetPlanCalenderDetails');
+	Route::any('/websrvc/GetPlanCalenderDetails', 'WebsrvcController@GetPlanCalenderDetails');
+	Route::any('/websrvc/GetPlanMenuDetails', 'WebsrvcController@GetPlanMenuDetails');
+	Route::any('/websrvc/GetPlanMealDetails', 'WebsrvcController@GetPlanMealDetails');
+	Route::any('/websrvc/GetControlStatus', 'WebsrvcController@GetControlStatus');
+	Route::any('/websrvc/Aboutus', 'WebsrvcController@Aboutus'); 
+	Route::any('/websrvc/Random_Meal', 'WebsrvcController@Random_Meal'); 
+	Route::any('/websrvc/Get_Fixed_Menu_Details', 'WebsrvcController@Get_Fixed_Menu_Details'); 
+	Route::any('/websrvc/Get_Plan_Filter_List', 'WebsrvcController@Get_Plan_Filter_List'); 
+	Route::any('/websrvc/Get_Filter_Result', 'WebsrvcController@Get_Filter_Result'); 
+	Route::any('/websrvc/Clear_filter', 'WebsrvcController@Clear_filter'); 
+	Route::any('/websrvc/User_Save_Nutrition', 'WebsrvcController@User_Save_Nutrition'); 
+	Route::any('/websrvc/User_Get_Nutrition', 'WebsrvcController@User_Get_Nutrition'); 
+	Route::any('/websrvc/faq', 'WebsrvcController@faq'); 
+	Route::any('/websrvc/Dislikes_and_Allergies', 'WebsrvcController@Dislikes_and_Allergies'); 
+	Route::any('/websrvc/Apply_Promo_Code', 'WebsrvcController@Apply_Promo_Code'); 
+	Route::any('/websrvc/show_packages_and_social', 'WebsrvcController@show_packages_and_social'); 
+	Route::any('/websrvc/order_list', 'WebsrvcController@order_list'); 
+	Route::any('/websrvc/advertisement', 'WebsrvcController@advertisement'); 
+	Route::any('/websrvc/add_credit_card', 'WebsrvcController@add_credit_card'); 
+	Route::any('/websrvc/card_list', 'WebsrvcController@card_list'); 
+	Route::any('/websrvc/delete_card', 'WebsrvcController@delete_card'); 
+	Route::any('/websrvc/order_detail', 'WebsrvcController@order_detail'); 
+});       

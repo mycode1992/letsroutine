@@ -1,0 +1,1329 @@
+
+html, body{
+  font-size: 14px;
+  color: #555 !important;
+  font-size: 16px !important;
+  font-family: 'Work Sans', sans-serif;
+/*  height: 100%;*/
+  /*background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;*/
+}
+body{
+ 
+  position: relative;
+  
+}
+body:after{
+  position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      content: '';
+       /*background-image: url(../img/bg-img.jpg);*/
+        background-image: url(../img/bg-img-1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #000;
+      background-position: bottom right;
+      z-index: -1;
+}
+body.bgNone:after{
+  display: none;
+}
+:focus {
+    outline: none;
+}
+.scrollToTop {
+  position: fixed;
+  right: 20px;
+  z-index: 9999;
+  bottom: 50px;
+  text-transform: uppercase;
+  font-size: 13px;
+  background: #f4f3ef;
+  color: #1c96d1;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 50%;
+  padding-top: 8px;
+  display: none;
+}
+
+.scrollToTop i{
+  display: block;
+  font-size: 15px;
+}
+
+.scrollToTop:hover{
+  color: #12151a;
+  text-decoration: none;
+}
+
+
+.tl-nav .navbar-nav{
+  margin-top: 0;
+  margin: 0;
+    float: none !important;
+}
+.tl-nav .navbar-nav li{
+  position: relative;
+}
+
+
+
+.tl-nav .activebg .navbar-nav li a{
+  color: #fff;
+
+}
+.tl-nav .activebg.active-white .navbar-nav li a{
+  color: #000;
+      padding: 15px 30px;
+}
+.tl-nav .activebg.active-white .navbar-nav li a:hover{
+  color: #008AFC;
+}
+
+.tl-nav .activebg .navbar-nav li a.active{
+  color: #008AFC;
+}
+
+.tl-nav .navbar-nav li a{
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  padding: 32px 30px;
+  border:1px solid transparent;
+  -webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.tl-nav .navbar-nav li a:hover{
+  background: transparent;
+ color: #008AFC;
+ 
+}
+
+.tl-nav .navbar-nav li a:focus{
+  background: transparent;
+  text-decoration: none;
+}
+
+.tl-nav .navbar-brand{
+  height: auto;
+  padding:15px 0;
+}
+
+.tl-nav .navbar-brand img{
+  width: 100%;
+  max-width:230px;
+}
+
+.navbar{
+  background: rgba(189, 224, 237, 0.56);
+
+}
+.navbar.active-white {
+  background: #fff;
+  box-shadow: 0px 0px 10px #c6c6c6;
+}
+.tl-banner{
+  position: relative;
+  overflow: hidden;
+}
+.tl-banner .tl-parallax{
+  width: 100%;
+  height:700px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: cover;
+}
+.tl-banner .phoneWidth{
+  position: relative;
+  max-width: 1170px;
+  margin: auto;
+  width: 100%;
+}
+
+.tl-nav .activebg .navbar-fixed-top{
+  min-height: auto;
+  margin-bottom: 0;
+  z-index: 99999;
+}
+.routine-banner-social-area {
+    margin: 0px 70px;
+    padding-bottom: 50px;
+    max-width: 500px;
+}
+
+.routine-logo{
+
+}
+.routine-logo img {
+  margin: auto;
+      padding: 120px 0;
+}
+.app-icon {
+    margin: 0 20px 0 0;
+}
+.routine-banner-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.routine-banner-subtitle {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.routine-banner-social-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 35px 0;
+}
+
+
+.health-routine-middle-area {
+  
+  background: #fff;
+}
+.health-routine-title-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.health-routine-title-box {
+       padding: 60px 40px;
+    text-align: center;
+}
+
+.health-routine-title-img img {
+    margin: auto;
+}
+
+.health-routine-title-title {
+    color: #008AFC;
+    font-size: 18px;
+    padding: 10px 0;
+}
+.health-routine-title-description {
+    font-size: 13px;
+    color: #008AFC;
+}
+.health-routine-pic-heding-area {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px;
+    -webkit-box-align: center;-ms-flex-align: center;align-items: center;
+}
+.health-routine-pic-icon {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.health-routine-pic-icon img {
+  border-radius: 50%;
+}
+.health-picwix-text {
+    padding: 0 0 0 10px;
+    color: #fff;
+}
+.health-picwix-text-title {
+    font-size: 22px;
+}
+.health-picwix-text-subtitle {
+    font-size: 15px;
+}
+.slider-nav .slider-img-item{
+  padding: 20px;
+}
+.health-routine-slider {
+  padding: 40px 0;
+}
+.health-routine-modal .modal-dialog{
+  width: 100%;
+    margin: 0;
+}
+.health-routine-modal .modal-content {
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+.health-routine-modal .modal-header {
+    padding: 0;
+    border-bottom: none;
+}
+.health-routine-modal .modal-header .close {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    color: #000;
+    top: 20px;
+      background: url(../img/modal-cross-icon.png) no-repeat;
+       padding: 30px;
+       opacity: 1;
+    background-size: 30px;
+   font-size: 50px;
+    z-index: 9999;
+    cursor: pointer;
+}
+.health-routine-modal .slick-next {
+    right: 50px;
+    width: 40px;
+    height: 60px;
+}
+.health-routine-modal .slick-next:before{
+  content: "" !important;
+
+    background: url(../img/modal-right-icon.png) no-repeat;
+       padding: 30px;
+       opacity: 1;
+    background-size: 30px;
+    position: relative;
+    top: 5px;
+
+}
+.health-routine-modal .slick-prev{
+    left: 50px;
+    width: 40px;
+    height: 60px;
+}
+.health-routine-modal .slick-prev:before{
+  content: "" !important;
+  background: url(../img/modal-left-icon.png) no-repeat;
+       padding: 30px;
+       opacity: 1;
+    background-size: 30px;
+    position: relative;
+    top: 5px;
+
+}
+.modal-slider-container{
+  padding:95px;
+  margin: auto; 
+}
+
+.contact-info-area {
+  padding: 0 0 150px 40px; 
+}
+.contact-us-heading {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.contact-us-icons span a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 15px 10px 0;
+    cursor: pointer;
+}
+.contact-us-email {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.contact-us-email a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact-us-email a:hover{
+  text-decoration: underline;
+}
+.contact-us-copyright {
+    color: #fff;
+    font-size: 13px;
+}
+
+.modal-slider-top-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+                color: #000;
+}
+.modal-slider-left-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #000;
+}
+span.modal-slider-pics-icon {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 0 0;
+ 
+}
+span.modal-slider-pics-icon  img{
+  height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.modal-slider-right-icon {
+    font-size: 18px;
+}
+.modal-slider-comment-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 20px 0;
+    border-top: solid 1px #666;
+        padding: 20px 0;
+    color: #000;
+    font-size: 16px;
+}
+.modal-slider-social-icon span {
+    padding: 0 10px 0 0;
+}
+.modal-slider-description-row {
+    padding: 5px 0;
+}
+.modal-slider-description-row span {
+    color: #000;
+}
+.slider-social-hover-box{
+  display: none;
+}
+.health-routine-modal .slick-prev:before{
+  z-index: 999;
+}
+.slider-social-box:hover .slider-social-hover-box {
+   position: absolute;
+    top: 9%;
+    background: rgba(5,62,37,0.6);
+    width: 81%;
+    height: 82%;
+    display: block;
+    cursor: pointer;
+    webkit-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.slider-social-box {
+    position: relative;
+}
+.slider-social-hover-box span {
+    padding: 5px 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+}
+.health-routine-contact-sec {
+    margin: 10% 0;
+}
+.health-routine-signup-sec{
+  margin: 7% 0;
+}
+.health-routine-contact-container {
+       max-width: 650px;
+    width: 100%;
+    margin: 0 0 0 12%;
+}
+.health-routine-contact-container h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: normal;
+   padding: 0px 0 20px 0;
+}
+.health-routine-contact-form input{
+      height: 50px;
+    border: none;
+    color: #5a5959;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.61);
+}
+.health-routine-contact-form textarea{
+      
+    border: none;
+    border-radius: 0;
+    color: #5a5959;
+    background: rgba(255, 255, 255, 0.61);
+}
+.select2-container--default .select2-selection--multiple {
+  border: 1px solid #dddddd !important;
+    box-shadow: none;
+    height: 50px;
+    border-radius: 0px !important;
+    width: 100%;
+}
+form.health-routine-contact-form button {
+    background: #5ec2cc;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 15px 150px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+form.health-routine-contact-form button:active{
+background: #5ec2cc !important;
+border:none;
+outline: none !important;
+color: #fff !important;
+}
+form.health-routine-contact-form button:focus{
+  background: #5ec2cc !important;
+  border:none;
+  outline: none !important;
+  color: #fff !important;
+}
+form.health-routine-contact-form button:hover {
+  background: rgba(94, 194, 204, 0.65);
+  color: #fff;
+}
+.health-routine-contact-form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #5a5959 !important;
+}
+.health-routine-contact-form ::-moz-placeholder { /* Firefox 19+ */
+  color: #5a5959 !important;
+}
+.health-routine-contact-form :-ms-input-placeholder { /* IE 10+ */
+  color: #5a5959 !important;
+}
+.health-routine-contact-form :-moz-placeholder { /* Firefox 18- */
+  color: #5a5959 !important;
+}
+.MT-120{
+  margin-top: 150px;
+}
+
+label.form-title {
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.health-routine-signup-container {
+    margin: 0 0 0 8%;
+    max-width: 850px;
+}
+.health-routine-sinup-form {
+position: relative;
+}
+
+.fileUpload.full-width-img .useredit-img-text .useredit-img img {
+  width: 100%;
+  height: 100%;
+   object-fit: cover;
+}
+
+.health-routine-sinup-form .form-row {
+  margin: 0 -15px;
+}
+.health-routine-sinup-form label.form-title span {
+    color: #f00;
+}
+.fileUploader {
+    position: absolute;
+    display: block;
+        max-width: 150px;
+    width: 100%;
+    height: 100% !important;
+    opacity: 0;
+    outline: none;
+    cursor: pointer;
+    z-index: 9;
+
+}
+.fileUpload {
+    border: solid 1px #fff;
+    max-width: 150px;
+    height: 100px;
+}
+.useredit-img{
+      display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   
+           
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+
+            -webkit-box-pack: start;-ms-flex-pack: start;justify-content: flex-start;
+    height: 100px;
+}
+
+
+.waiting-aproval {
+    background: #fff;
+    margin: 20px 0;
+    padding: 8px;
+    text-align: center;
+    color: #2c9e46;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: none;
+}
+.forget-pwd {
+  float: right;
+}
+span.forget-pwd a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.forget-pwd-msg-modal .modal-header {
+    padding: 0;
+    border-bottom: none;
+}
+.forget-pwd-msg-modal .modal-content{
+  border-radius: 0;
+}
+.forget-pwd-msg-modal .close{
+  background:#5da2cb !important;
+    opacity: 1;
+    color: #fff;
+    padding: 7px !important;
+    font-size: 26px;
+}
+.forgt-pwd-msg {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+@media (min-width: 768px){
+
+.modal-dialog {
+    width: 500px;
+    margin: 30px auto;
+}
+}
+/* my profile page */
+
+.white{
+  color: #fff
+}
+.myDashboard {
+ padding: 50px 0;
+}
+.myDashboard .leftBox .left{
+  border: 1px solid #72bfdd;
+  margin-bottom: 20px;
+}
+.myDashboard .leftBox .userProfilePicBox{
+  background: #9dd1e7;
+  width: 100%;
+  text-align: center;
+}
+.myDashboard .leftBox .userProfilePicBox .userUplodImg {
+  width: 80px;
+  height: 80px;
+  margin-top: 25px;
+  position: relative;
+  display: inline-block;
+}
+.myDashboard .leftBox .userProfilePicBox .userUplodImg .gfuserUploadImg{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+.myDashboard .leftBox .userProfilePicBox .userUplodImg img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background:#fff; 
+  object-fit: cover;
+}
+.myDashboard .leftBox .userProfilePicBox .userUplodImg .btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  left: 36px;
+  top: -35px;
+  background: #73c0de;
+  color: #fff;
+  padding: 2px 6px;
+}
+.myDashboard .leftBox .userProfilePicBox .userUplodImg .btn label i{
+  position: relative;
+  top: 4px;
+}
+.myDashboard .leftBox .userProfilePicBox .userUplodImg .btn label i:before{
+  content: '';
+  background: url('../img/edit.png') no-repeat;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+}
+.myDashboard .leftBox .userProfilePicBox .userUplodImg .btn .profileUplod {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  width: 37px;
+  text-indent: -999px
+}
+.myDashboard .leftBox .userProfilePicBox h4{
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.myDashboard .leftLinks{
+  border: 1px solid #72bfdd;
+}
+.myDashboard .leftLinks ul{
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+.myDashboard .leftLinks ul li a{
+display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+  padding: 12px 15px;
+  border-bottom: 1px solid #458aff;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #458aff;
+  font-size: 14px;
+  background:#fff;
+  font-weight: 600;
+  -webkit-transition:all 0.3s ease;
+  -o-transition:all 0.3s ease;
+  transition:all 0.3s ease;
+  position: relative;
+}
+.myDashboard .leftLinks ul li a span{
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.myDashboard .leftLinks ul li a img{
+  padding-right: 5px;
+}
+.myDashboard .leftLinks ul li:last-child a{
+  border-bottom: 0
+}
+.myDashboard .leftLinks ul li a.active,
+.myDashboard .leftLinks ul li a:hover{
+  color: #458aff;
+  background:rgba(157, 209, 231, 0.48);
+}
+.myDashboard .rightBox{
+  border:1px solid #72bfdd; 
+  padding: 15px;  
+      min-height: 650px;
+}
+.myDashboard .rightBox form label{
+  display: block;
+  color: #458aff;
+  font-weight: normal
+}
+.myDashboard .rightBox h3.formTitle{
+  color: #458aff;
+  font-weight: 600;
+  padding: 20px;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 0;
+  text-transform: uppercase;
+  padding-left: 0;
+}
+.myDashboard .rightBox form label span{
+  color: red;
+}
+.myDashboard .rightBox form .form-group .form-control,
+.myDashboard .rightBox form .form-group textarea.form-control{
+  border: 1px solid #dddddd;
+  box-shadow: none;
+  height: 40px;
+  border-radius: 0px;
+  width: 100%;
+}
+.myDashboard .rightBox form .form-group textarea.form-control{
+  height: 100px;
+}
+.myDashboard .rightBox form .form-group select.form-control{
+  border: 1px solid #dddddd;
+  box-shadow: none;
+  height: 40px;
+  border-radius: 0px;
+  width: 100%;
+}
+.myDashboard .rightBox form .form-group a.chngp{
+  margin-top: 41px;
+  display: inline-block;
+  color: #458aff;
+  font-weight: 600;
+  text-decoration: underline
+}
+.myDashboard .rightBox form .form-group select.selectBox{
+  background: url('../img/select-arrow.png') no-repeat;
+  background-position: 96%;
+  -webkit-appearance: none;
+}
+.rp-textsend-cols-btn label {
+    position: relative;
+    width: 100%;
+}
+.rp-textsend-cols-btn label input {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    height: 35px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.rp-textsend-cols-btn label span.upload_logo {
+    line-height: 32px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    padding: 6px 12px;
+       background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#75cee3+65,6573b4+100 */ background: rgb(117,206,227);
+    background: -moz-linear-gradient(left, rgb(117,206,227) 65%, rgb(101,115,180) 100%);
+    background: -webkit-linear-gradient(left, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    background: linear-gradient(to right, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cee3', endColorstr='#6573b4',GradientType=1 );
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #fff!important;
+    margin: 20px 0;
+    max-width: 250px;
+}
+.submitButton .sbmtbtn {
+    padding: 10px 80px;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+        -webkit-transition: 0.5s;  -o-transition: 0.5s;  transition: 0.5s;
+    margin: 20px 0;
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#75cee3+65,6573b4+100 */ background: rgb(117,206,227);
+    background: -moz-linear-gradient(left, rgb(117,206,227) 65%, rgb(101,115,180) 100%);
+    background: -webkit-linear-gradient(left, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    background: linear-gradient(to right, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cee3', endColorstr='#6573b4',GradientType=1 );
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    background-size: 100% 100%;
+  background-position: left bottom;
+  transition: all .9s ; 
+}
+.submitButton .sbmtbtn:hover {
+  background-position: right bottom;
+    background-size: 500% 100%;
+}
+/*current-order-css-start*/
+.current-order-table .table>thead>tr>th{
+    background: #5cc0dc;
+    color: #fff;
+    white-space: nowrap;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    border-right: solid 1px #fff;
+}
+.current-order-table tr.even-row {
+    background: #f2f4f6;
+}
+.current-order-table .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+  padding:12px;
+  border-top: none; 
+  color: #0092f7;
+  text-align: center;
+}
+.current-order-table .order-detail-icon a {
+    height: 28px;
+    width: 28px;
+    border: solid 1px;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50%;
+    line-height: 11px;
+    cursor: pointer;
+}
+.inner-footer-contaienr {
+  background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#75cee3+65,6573b4+100 */ background: rgb(117,206,227);
+    background: -moz-linear-gradient(left, rgb(117,206,227) 65%, rgb(101,115,180) 100%);
+    background: -webkit-linear-gradient(left, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    background: linear-gradient(to right, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cee3', endColorstr='#6573b4',GradientType=1 );
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+.inner-footer-contaienr span a {
+   
+    color: #fff;
+    padding: 0 10px;
+    border-left: solid 1px #fff;
+}
+/*current-order-css-end*/
+.dashboard-header-container {
+   background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#75cee3+65,6573b4+100 */ background: rgb(117,206,227);
+    background: -moz-linear-gradient(left, rgb(117,206,227) 65%, rgb(101,115,180) 100%);
+    background: -webkit-linear-gradient(left, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    background: linear-gradient(to right, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cee3', endColorstr='#6573b4',GradientType=1 );
+    padding: 15px 0;
+}
+
+/*dashboard-header-css-start*/
+.dasboard-heder-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+                -webkit-box-align: center;    -ms-flex-align: center;    align-items: center;
+}
+.dropdown.ti-navdropdown a{
+ 
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #fff;
+    display: block;
+}
+.dropdown.ti-navdropdown a img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.dropdown.ti-navdropdown a .caret-icon{
+     position: absolute;
+    right: -9px;
+    top: 10px;
+    color: #fff; 
+}
+.dropdown.ti-navdropdown a:hover {
+  /*background: transparent;*/
+  color: #458aff;
+}
+.dropdown.ti-navdropdown .dropdown-menu li a {
+    height: auto;
+    padding: 3px 15px;
+}
+/*dashboard-header-css-end*/
+
+.current-order-table .infoIcon a{
+  background: #5cc0dc;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 0px;
+}
+.current-order-table .editDeleteBtns a{
+  display: inline-block;
+  background: #5cc0dc;
+  width: 25px;
+  line-height: 14px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 4px;
+  margin: 0px 3px;
+}
+.addBtn a{
+  display: inline-block;
+  background: #5cc0dc;
+  padding: 7px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.myDashboard .rightBox .headFlex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.open>.dropdown-menu{
+  right: 0;
+  left: auto
+}   
+.orFlex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 32px;
+  color: #5cc0dc;
+  padding-bottom: 25px;
+}
+
+.switchBtn .switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 26px;
+}
+
+.switchBtn .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switchBtn .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #bc4c4b;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switchBtn .slider:before {
+  position: absolute;
+  content: "";
+ height: 20px;
+    width: 20px;
+    left: 5px;
+
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switchBtn  input:checked + .slider {
+  background-color: #75d38d;
+}
+
+.switchBtn  input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.switchBtn input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.switchBtn .slider.round {
+  border-radius: 34px;
+}
+
+.switchBtn .slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+
+.meal-description {
+  text-align: left !important;
+    font-size: 14px;
+}
+td.meal-description a {
+    text-decoration: underline;
+    color: #5cc0dc;
+    font-weight: 700;
+}
+td.meal-description a:hover{
+  color: #458aff;
+}
+.reamode-modal-coantaeiner {
+    padding: 15px;
+}
+.readmore-modal-area .modal-content{
+  border-radius: 0;
+}
+.readmore-modal-area .modal-header {
+    padding: 1px;
+    border-bottom: none;
+}
+.readmore-modal-area .modal-header button{
+  opacity: 1;
+    background: #00dcff;
+    padding: 10px;
+    color: #fff;
+}
+
+.reamode-modal-coantaeiner {
+    font-size: 15px;
+}
+body.bgNone {
+    background-image: none;
+}
+.editDeleteBtns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;
+}
+  .useredit-img img {
+    width: 100px;
+    height: 100px;
+  }
+
+
+  .add-problem-form form label{
+    display: block;
+    color: #458aff;
+    font-weight: normal;
+  } 
+
+.report-problem-modal h3{
+  color: #458aff;
+    font-weight: 600;
+    padding: 20px;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    display: block;
+}
+.add-problem-form .form-control {
+  border: 1px solid #dddddd;
+    box-shadow: none;
+    height: 50px;
+    border-radius: 0px;
+    width: 100%;
+  }
+  .add-problem-form textarea.form-control{
+    height: auto !important;
+  }
+
+  button.chnge-pwd-btn {
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#75cee3+65,6573b4+100 */ background: rgb(117,206,227);
+    background: -moz-linear-gradient(left, rgb(117,206,227) 65%, rgb(101,115,180) 100%);
+    background: -webkit-linear-gradient(left, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    background: linear-gradient(to right, rgb(117,206,227) 65%,rgb(101,115,180) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cee3', endColorstr='#6573b4',GradientType=1 );
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: 10px 0;
+}
+
+
+.letsroutine-delete-modal-area .modal-title{
+    text-align: center;
+    padding: 10px 0 20px 0;
+  }
+  .delete-cancel-btn-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.delete-cancel-btn-area .delete-btn {
+    background: #1fa8bd;
+    border: none;
+}
+.delete-cancel-btn-area .cancel-btn {
+background: #1fa8bd;
+    border: none;
+}
+
+.delete-cancel-btn-area .delete-btn:hover {
+    background: #5ad9ec;
+}
+.delete-cancel-btn-area .cancel-btn:hover {
+  background: #5ad9ec;
+}
+
+
+
+.delivery-info-table .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border: solid 1px #d8e5ea;
+  }
+  .delivery-info-row {
+    background: #9dd1e7;
+  }
+  .delivery-info-row td {
+  color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .current-order-table.delivery-info-table {
+    margin: 15px 0 0 0;
+}
+
+
+.service-checkbox .form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.service-checkbox .form-group label {
+  position: relative;
+  cursor: pointer;
+}
+.service-checkbox .form-group label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+.service-checkbox .form-group input:checked + label:after {
+  content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    width: 5px;
+    height: 11px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.service-checkbox label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    padding: 0 0 0 30px;
+}
+.diet-center-header h3 {
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+.diet-center-modal .modal-body{
+  padding: 0 20px;
+}
+
+.all-area-chceckbox-heading label {
+    /* border: solid; */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.all-area-chceckbox-heading .padding0 {
+    background: #5cc0dc;
+    padding: 5px 10px;
+    margin: 10px -10px;
+}
+.all-area-chceckbox-heading .padding0 label{
+  color: #fff;
+}
+.all-area-chceckbox-subheading {
+    display: inline-block;
+    width: 40%;
+}
+
+
+
+  .modal-delete-container h4 {
+    text-align: center;
+    color: #458aff;
+    font-size: 21px;
+    padding: 0 0 0px 0;
+    font-weight: 600;
+}
+.delete-modal-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 28px 0;
+}
+.delete-modal-btn button {
+    background: #5dc2cb;
+    padding: 10px 40px;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: 20px 0;
+}
+.delete-modal-btn button:hover {
+  background:#21adb9; 
+}
+.gj-textbox-md:active, .gj-textbox-md:focus {
+    border-bottom: solid 1px #0098f9;
+    outline: 0;
+}
+
+.fornone_lr.fornone span.select2.select2-container.select2-container--default{
+   width: 100% !important;
+   height: auto;
+}
+
+.fornone_lr.fornone span.select2.select2-container.select2-container--default span.select2-selection.select2-selection--multiple {
+   height: auto;
+}
+.health-routine-sinup-form label.form-title span {
+  display: none;
+}
